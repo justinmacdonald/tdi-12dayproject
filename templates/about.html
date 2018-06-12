@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>About the Project</title>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}
+</style>
+  </head>
+  <body>
+<ul>
+  <li><a href="/">Stock Prices</a></li>
+  <li><a href="http://thedataincubator.com" target="_blank">The Data Incubator</a></li>
+  <li><a href="mailto:justin@justinmacdonald.net">E-mail Justin</a></li>
+  <li><a class="active" href="/about">About this page</a></li>
+</ul>
+    <div class="container">
+<h2>Welcome to Justin MacDonald's 12-day program final project.</h2>
+      <div class="row">
+        <div class="col-lg-12 text-left">
+	     <p>For this project I pulled stock price data from alphadvantage.co using their API. The data were pulled into a pandas dataframe, processed,  and then plotted with Bokeh. The project was deployed using Heroku and Flask.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
